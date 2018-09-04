@@ -44,8 +44,9 @@ if (token) {
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example', require('./components/Example.vue'));
+import Vue from 'vue';
+import router from './routes.js';
 
-const app = new Vue({
-    el: '#app'
-});
+new Vue({
+    router
+}).$mount('#app');
