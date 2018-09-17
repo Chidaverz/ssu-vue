@@ -6,6 +6,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<title>Vue App</title>
 
+	<link href="{{ asset('/css/app.css' ) }}" rel="stylesheet" type="text/css"/>
 	<script type='text/javascript'>
          window.Laravel = <?php echo json_encode(['csrfToken' => csrf_token()]); ?>
     </script>
@@ -14,5 +15,6 @@
 	<div id="app">
 		<router-view></router-view>
 	</div>
+	<script type="text/javascript" src="{{ asset('/js/app.js') }}"></script>
 </body>
 </html>
