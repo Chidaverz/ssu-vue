@@ -7,6 +7,8 @@
 	<title>Vue App</title>
 
 	<link href="{{ asset('/css/app.css' ) }}" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	<script type='text/javascript'>
          window.Laravel = <?php echo json_encode(['csrfToken' => csrf_token()]); ?>
     </script>
