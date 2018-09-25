@@ -12,3 +12,5 @@
 */
 
 Route::get( '/', 'Web\AppController@getApp' );
+
+Route::get('/logout', 'Web\AppController@getLogout')->name('logout');
