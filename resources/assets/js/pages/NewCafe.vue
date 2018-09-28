@@ -46,6 +46,28 @@ export default {
 			city: '',
 			state: '',
 			zip: '',
+			validations: {
+				name: {
+					is_valid: true,
+					text: '',
+				},
+				address: {
+					is_valid: true,
+					text: ''
+				},
+				city: {
+					is_valid: true,
+					text: ''
+				},
+				state: {
+					is_valid: true,
+					text: ''
+				},
+				zip: {
+					is_valid: true,
+					text: ''
+				},
+			}
 		}
 	},
 	methods: {
